@@ -1,0 +1,9 @@
+Sno,ConfigName,ConfigValue
+1,GlobalTimeOut,45
+2,ScreenShotPolicy,Always
+3,Browser,chrome
+4,ObjectSyncTimeout,40
+5,ObjectIdentificationTimeOut,60
+6,GridBrowser,chrome
+7,GridBrowserVersion,10
+8,GridPlatform,WIN10
