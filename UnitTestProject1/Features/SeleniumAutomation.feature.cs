@@ -28,7 +28,7 @@ namespace UnitTestProject1.Features
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "SpecFlowFeature1.feature"
+#line 1 "SeleniumAutomation.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]

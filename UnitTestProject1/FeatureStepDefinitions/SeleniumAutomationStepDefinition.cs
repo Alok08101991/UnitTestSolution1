@@ -7,17 +7,20 @@ using System;
 using System.Collections.Generic;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using System.Net;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace UnitTestProject1.FeatureStepDefinitions
 {
     [Binding]
-    public class StepDefinition1
+    public class SeleniumAutomationStepDefinition
     {
         // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
-        
+
         public readonly ScenarioContext _scenarioContext;
         public IWebDriver driver;
-        public StepDefinition1(ScenarioContext scenarioContext)
+        public SeleniumAutomationStepDefinition(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
             var driverhelper = new DriverHelper();
@@ -138,6 +141,9 @@ namespace UnitTestProject1.FeatureStepDefinitions
             Assert.AreEqual(url, "https://www.moneycorp.com/en-gb/search/?q=International+Payments");
         
         }
+        
+            
+        
 
 
 

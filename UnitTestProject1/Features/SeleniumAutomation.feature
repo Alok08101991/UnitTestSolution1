@@ -25,3 +25,6 @@
 	Given the user enters the URL in Chrome browser 
 	Then search International Payments in the search box
 	And verifies the page has taken the user to results page
+
+	
+	
